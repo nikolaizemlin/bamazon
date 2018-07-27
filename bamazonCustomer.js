@@ -51,7 +51,7 @@ function inventory() {
     // instantiate
     var table = new Table({
         head: ['ID', 'Item', 'Department', 'Price', 'Stock'],
-        colWidths: [10, 30, 30, 30, 30]
+        colWidths: [10, 30, 20, 10, 10]
     });
 
     listInventory();
@@ -75,7 +75,7 @@ function inventory() {
             );
           }
             console.log("");
-            console.log("====================================================== Current Bamazon Inventory ======================================================");
+            console.log("============================ Current Bamazon Inventory ===============================");
             console.log("");
             console.log(table.toString());
             console.log("");
